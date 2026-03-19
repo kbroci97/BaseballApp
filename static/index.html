@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Years</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Year Explorer<br><span class="sub">Pick a year and take a trip!</span></h1>
+        </div>
+
+        <div class="controls">
+            <label for="year-select">Which season are you curious about?</label>
+            <div class="select-wrapper">
+                <select id="year-select">
+                    <option value="">Loading years...</option>
+                </select>
+                <div class="select-icon" aria-hidden="true">⌄</div>
+            </div>
+        </div>
+
+        <div id="selection" class="selection">Choose a year to see more.</div>
+
+        <div id="team-area" class="team-area">
+            <h2>Teams</h2>
+            <div id="team-list" class="team-list">Pick a year to load teams.</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
